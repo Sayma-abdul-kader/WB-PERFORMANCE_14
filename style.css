@@ -1,5 +1,9 @@
 body{
     background-color: aliceblue;
+    font-size: 60px;
+}
+div{
+    background-clip: content-box;
 }
 a:Link{
     color: green;
