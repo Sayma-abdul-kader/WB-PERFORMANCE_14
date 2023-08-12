@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+}
+a:Link{
+    color: green;
+}
+a:visited{
+    color:blueviolet;
+}
+a:hover{
+    background-color: black;
+    color: white;
+}
+a:active{
+    background-color: grey;
+}
+.div a{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 10px;
+    border: 5px ridge greenyellow;
+    border-radius: 0 10px 0 10px;
+    background-clip: content-box;
+    opacity: 0.3;
+   
+    
+}
+.li{
+    list-style-type: square;
+}
+.list{
+    list-style-type: upper-roman;
+}
+.list1{
+    list-style-image: url('ms.jpg');
+}
+.list2{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.list6{
+    list-style-type: lower-greek;
+    list-style-position: outside;
+    background: lightgreen;
+}
+.list6 li{
+    background-color: burlywood;
+    padding: 5px;
+}
+table{
+    width: 70%;
+    height: 60%;
+    empty-cells: hide;
+}
+table,th,td{
+    border: 5px ridge darkblue;
+    border-collapse: collapse;
+}
+th{
+    height: 60px;
+}
+td{
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+}
+#r td{
+    text-align: right;
+    vertical-align: baseline;
+}
+#l td{
+    text-align: left;
+    vertical-align: middle;
+}
+.tbt table,th,td{
+     border-bottom: 5px ridge darkblue;
+}
+.tbt tr:nth-child(odd){
+    background: blueviolet;
+}
+.tb tr:nth-child(even){
+    background: grey;
+}
+#tt tr:nth-child(2){
+    background: yellow;
+}
